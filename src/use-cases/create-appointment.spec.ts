@@ -22,7 +22,7 @@ describe('create an appointment', () => {
   });
 });
 
-describe('create an appointment', () => {
+describe('cannot create an appointment', () => {
   it('should not be able to create an appointment with overlapping dates', async () => {
     const startsAt = getFutureDate('2024-11-06');
     const endsAt = getFutureDate('2024-11-10');

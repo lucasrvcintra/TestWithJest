@@ -31,9 +31,7 @@ describe('cannot create an appointment', () => {
       });
     }).toThrow();
   });
-});
 
-describe('cannot create an appointment', () => {
   test('cannot create an appointment with startsAt before now', () => {
     const startsAt = new Date();
     const endsAt = new Date();
